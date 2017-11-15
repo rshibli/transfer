@@ -1,11 +1,10 @@
 <html>
 <head>
-	<title>Test iFrame</title>
+	<title>Mock Airport Transfers</title>
 	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js"></script>
 	<script type="text/javascript">
 		$.when( $.ready ).then(function() {
-		  $('#trigger').click(ct_event);
 		  $('#trigger_airport').click(cttransnoavail_event)
 		});
 
@@ -35,9 +34,8 @@
 </head>
 <body>
 
-	<h1>iFrame</h1>
+	<h1>Mock Airport Transfers iFrame Content</h1>
 	<p>Everything inside this black box is rendered by the iFrame.  Everything else is rendered by the parent page.</p>
-	<button id="trigger">Trigger ctnoavail event</button>
 	<button id="trigger_airport">Trigger cttransnoavail event</button>
 	<ul id="notify">
 	</ul>
